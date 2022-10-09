@@ -4,7 +4,5 @@ services:
   app:
     build:
       context: .
-      args:
-        - REACT_APP_HOST_IP_ADDRESS = ${IP_ADDRESS}
     ports:
       - "4433:4433"
