@@ -1,32 +1,17 @@
+# VTB-team-tetris
 ## Overview
 
-Full Stack Javascript Multiplayer Tetris Game build with Node, socket.io, React and Redux.
+Full Stack Javascript Multiplayer Tetris Game build with Node, socket.io, React and Redux. 
 
-Play it at: https://cepalle.github.io/red-tetris/
+Play it at: https://tetris.onixx.org/
 
 ## Run it locally
 
-After:
 ````cmd
- npm install
-````
-run:
-````cmd
- npm run build
-````
-and:
-````cmd
- npm run serve
+ docker-compose up -d
 ````
 
-RED TETRIS will be available at localhost:4433.
 
-## Images
+VTB TETRIS will be available at localhost:4433.
 
-### How connect:
 
-![Connect_img](https://github.com/cepalle/red-tetris/blob/master/assets/connect_img.png)
-
-### Play!
-
-![Game_img](https://github.com/cepalle/red-tetris/blob/master/assets/game_img.png)
