@@ -1,0 +1,348 @@
+/* FLEX BOX */
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.selfEnd {
+  align-self: flex-end;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+/* PIECE */
+
+.casePlayer {
+  height: 20px;
+  width: 20px;
+  border: 3px;
+}
+
+.caseOpponent {
+  height: 16px;
+  width: 16px;
+  border: 2.5px;
+}
+
+.caseHalfHeight {
+  height: 10px;
+  width: 20px;
+  border: 3px;
+}
+
+.caseHalfWidth {
+  height: 20px;
+  width: 10px;
+  border: 3px;
+}
+
+.caseHalf {
+  height: 10px;
+  width: 10px;
+  border: 3px;
+}
+
+.color0 {
+  border: solid #223345;
+  border-bottom-color: #394A56;
+  border-right-color: #394A56;
+  background-color: #2D3E50;
+}
+
+.color1 {
+  border: solid #56A340;
+  border-bottom-color: #396A2C;
+  border-right-color: #396A2C;
+  background-color: #4D923A;
+}
+
+.color2 {
+  border: solid #434C9D;
+  border-bottom-color: #2E336A;
+  border-right-color: #2E336A;
+  background-color: #3D458F;
+}
+
+.color3 {
+  border: solid #933FAC;
+  border-bottom-color: #622875;
+  border-right-color: #622875;
+  background-color: #85389B;
+}
+
+.color4 {
+  border: solid #CDA827;
+  border-bottom-color: #8C7518;
+  border-right-color: #8C7518;
+  background-color: #BA9823;
+}
+
+.color5 {
+  border: solid #B3562F;
+  border-bottom-color: #7C3B20;
+  border-right-color: #7C3B20;
+  background-color: #A24E2A;
+}
+
+.color6 {
+  border: solid #4DB2A5;
+  border-bottom-color: #337A70;
+  border-right-color: #337A70;
+  background-color: #459F94;
+}
+
+.color7 {
+  border: solid #A9383E;
+  border-bottom-color: #76262B;
+  border-right-color: #76262B;
+  background-color: #993339;
+}
+
+.color8 {
+  border: solid #394A56;
+  border-bottom-color: #223345;
+  border-right-color: #223345;
+  background-color: #2D3E50;
+}
+
+.color9 {
+  border: solid #2D3E50;
+  border-bottom-color: #1A2B3D;
+  border-right-color: #1A2B3D;
+  background-color: #223345;
+}
+
+.color10 {
+  border: solid #888888;
+  border-bottom-color: #666666;
+  border-right-color: #666666;
+  background-color: #777777;
+}
+
+.color11 {
+  border: solid #594A56;
+  border-bottom-color: #423345;
+  border-right-color: #423345;
+  background-color: #4D3E50;
+}
+
+.color12 {
+  border: solid #596A56;
+  border-bottom-color: #425345;
+  border-right-color: #425345;
+  background-color: #4D5E50;
+}
+
+.color13 {
+  border: solid #1D2E40;
+  border-bottom-color: #0A1B2D;
+  border-right-color: #0A1B2D;
+  background-color: #122335;
+}
+
+.buttonPlay {
+  border: solid #394A56;
+  border-bottom-color: #223345;
+  border-right-color: #223345;
+  background-color: #2D3E50;
+}
+
+.buttonPlay:hover {
+  border: solid #223345;
+  border-bottom-color: #394A56;
+  border-right-color: #394A56;
+  background-color: #2D3E50;
+}
+
+/* OTHER CSS */
+
+.pad {
+  padding: 10px;
+}
+
+.width_info_panel {
+  width: 500px;
+}
+
+@font-face {
+  font-family: 'arcade';
+  src: url('./assets/arcade.ttf');
+}
+
+h1 {
+  margin: 0px;
+}
+
+.font_retro {
+  font-family: 'arcade';
+}
+
+.font_info {
+  font-size: 15px;
+}
+
+.font_button {
+  font-size: 30px;
+}
+
+.font_button_home {
+  font-size: 20px;
+}
+
+.font_white {
+  color: #fefefe;
+}
+
+.font_red {
+  color: red;
+}
+
+.font_green {
+  color: green;
+}
+
+.font_color_key {
+  color: #777777;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  background-image: url("assets/space.png");
+  font-family: 'Roboto';
+  background-size: cover;
+}
