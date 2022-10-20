@@ -297,13 +297,10 @@ const emitPlayerCompleteLine = (roomName, playerName, amount, emit) => {
   logger_sock(["emit PLAYER_COMPLETE_LINE"]);
   const LINE_SCORE = [40,100,300,1200,2500,3500];
   //TODO: send tokens to the player
-  userService.setScore(LINE_SCORE[amount-1])
-  .then((res) => {
-    emit(socketDefs.PLAYER_COMPLETE_LINE, {
-      roomName: roomName,
-      playerName: playerName,
-      amount: amount,
-    });
+  emit(socketDefs.PLAYER_COMPLETE_LINE, {
+    roomName: roomName,
+    playerName: playerName,
+    amount: amount,
   });
 };
 
