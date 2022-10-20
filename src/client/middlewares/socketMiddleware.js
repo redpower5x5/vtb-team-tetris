@@ -108,7 +108,7 @@ const socketMiddleware = store => next => action => {
 
   let result = next(action);
 
-  //nextGenFlowHandler(store.getState(), next, socketEmit);
+  nextGenFlowHandler(store.getState(), next, socketEmit);
   nextLooseHandler(store.getState(), next, socketEmit);
   nextJoinRoomHandler(store.getState(), next, socketEmit);
   nextUpdateGridHandler(store.getState(), next, socketEmit);
