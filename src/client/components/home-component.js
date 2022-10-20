@@ -59,8 +59,8 @@ class HomeComponent extends React.Component {
   handleSubmitRoom(event) {
     // let user = JSON.parse(localStorage.getItem('user'));
     // console.log(user);
-    window.location.href = "#" + this.state.roomName + "[" + user.profile.playerName + "]";
-    store.dispatch(updateRoomPlayerName(this.state.roomName, user.profile.playerName));
+    window.location.href = "#" + this.state.roomName + "[" + this.state.playerName + "]";
+    store.dispatch(updateRoomPlayerName(this.state.roomName, this.state.playerName));
     event.preventDefault();
   }
 
